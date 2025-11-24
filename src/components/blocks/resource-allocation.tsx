@@ -62,9 +62,9 @@ const topItems = [
 
 const bottomItems = [
   {
-    title: "Graveyard it.",
+    title: "Technology That Works for You.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.",
+      "Don't waste time juggling platforms—let our custom solutions streamline how you brainstorm, plan, and deliver meaningful results.",
     images: [
       {
         src: "/resource-allocation/graveyard.webp",
@@ -78,9 +78,9 @@ const bottomItems = [
     fade: ["bottom"],
   },
   {
-    title: "Task discussions.",
+    title: "Vibe Coding Anxiety.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "Vibe coded a great app but just need to finish it off? Something just not working right? We got you.",
     images: [
       {
         src: "/resource-allocation/discussions.webp",
@@ -94,9 +94,9 @@ const bottomItems = [
     fade: [""],
   },
   {
-    title: "Notifications.",
+    title: "Subscription Fatigue.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "Too many subscriptions? We get it. We'll help you consolidate and self-host to find the right tools for your team and budget.",
     images: [
       {
         src: "/resource-allocation/notifications.webp",
@@ -119,7 +119,7 @@ export const ResourceAllocation = () => {
     >
       <div className="">
         <h2 className="container text-center text-3xl tracking-tight text-balance sm:text-4xl md:text-5xl lg:text-6xl">
-          Mainline your resource allocation and execution
+          We help businesses and teams elevate their game with AI education, consultation, and development. No fluff, just results. 
         </h2>
 
         <div className="mt-8 md:mt-12 lg:mt-20">

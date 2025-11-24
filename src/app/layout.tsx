@@ -63,11 +63,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mainline - Modern Next.js Template",
-    template: "%s | Mainline",
+    default: "Tavonni Creative Technologies",
+    template: "%s | Tavonni",
   },
   description:
-    "A modern Next.js template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+    "Tavonni Creative Technologies - We help you migrate to new and future technologies.",
   keywords: [
     "Next.js",
     "nextjs template",
@@ -83,9 +83,9 @@ export const metadata: Metadata = {
     "mdx theme",
     "mdx starter",
   ],
-  authors: [{ name: "shadcnblocks.com" }],
-  creator: "shadcnblocks.com",
-  publisher: "shadcnblocks.com",
+  authors: [{ name: "tavonni.com" }],
+  creator: "tavonni.com",
+  publisher: "tavonni.com",
   robots: {
     index: true,
     follow: true,
@@ -142,7 +142,7 @@ export default function RootLayout({
       <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >

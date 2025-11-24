@@ -24,16 +24,21 @@ export function Footer() {
     <footer className="flex flex-col items-center gap-14 pt-28 lg:pt-32">
       <div className="container space-y-3 text-center">
         <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-          Start your free trial today
+          Got Questions? Let's Co-Create!
         </h2>
         <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-          Mainline is the fit-for-purpose tool for planning and building modern
-          software products.
+Curious about turning your ideas into scalable AI solutions? <br />
+
+Want to launch workshops or upskill your entire team?<br />
+
+Planning a tech transformation and need expert guidance?<br />
+
+Reach out and let’s architect your AI-powered future together!
         </p>
         <div>
           <Button size="lg" className="mt-4" asChild>
-            <a href="https://github.com/shadcnblocks/mainline-nextjs-template">
-              Get template
+            <a href="#">
+              Contact Us
             </a>
           </Button>
         </div>
@@ -78,6 +83,40 @@ export function Footer() {
 
       <div className="text-primary mt-10 w-full md:mt-14 lg:mt-20">
         <svg
+  width="1570"
+  height="293"
+  viewBox="0 0 1570 293"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  className="w-full"
+>
+  <defs>
+    <linearGradient
+      id="paint0_linear_59_191"
+      x1="742.5"
+      y1="0"
+      x2="742.5"
+      y2="218.5"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stopColor="currentColor" />
+      <stop offset="1" stopColor="#F8F8F8" stopOpacity="0.41" />
+    </linearGradient>
+  </defs>
+
+  <text
+    x="50%"
+    y="50%"
+    dominantBaseline="middle"
+    textAnchor="middle"
+    fontFamily="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fontSize="210"
+    fill="url(#paint0_linear_59_191)"
+  >
+    tavonni
+  </text>
+</svg>
+        {/* <svg
           width="1570"
           height="293"
           viewBox="0 0 1570 293"
@@ -104,7 +143,7 @@ export function Footer() {
               <stop offset="1" stopColor="#F8F8F8" stopOpacity="0.41" />
             </linearGradient>
           </defs>
-        </svg>
+        </svg> */}
       </div>
     </footer>
   );

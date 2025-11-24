@@ -77,15 +77,15 @@ export const FAQ = ({
           <div className="space-y-4">
             {headerTag === "h1" ? (
               <h1 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+                Got Questions? Graveyard the Old, Fast-Track the New.
               </h1>
             ) : (
               <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+                Got Questions? Graveyard the Old, Fast-Track the New.
               </h2>
             )}
             <p className="text-muted-foreground max-w-md leading-snug lg:mx-auto">
-              If you can't find what you're looking for,{" "}
+              Ready to say goodbye to legacy systems? Archive what’s holding you back and unleash agile processes designed to spark breakthroughs in education, consultation, and tech development.{" "}
               <Link href="/contact" className="underline underline-offset-4">
                 get in touch
               </Link>

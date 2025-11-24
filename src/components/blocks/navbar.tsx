@@ -34,13 +34,13 @@ const ITEMS = [
       {
         title: "Resource Allocation",
         href: "/#resource-allocation",
-        description: "Mainline your resource allocation and execution",
+        description: "We help creative businesses and teams elevate their game with AI education, consultation, and development. No fluff, just results. ",
       },
     ],
   },
   { label: "About Us", href: "/about" },
-  { label: "Pricing", href: "/pricing" },
-  { label: "FAQ", href: "/faq" },
+  // { label: "Pricing", href: "/pricing" },
+  // { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -120,18 +120,11 @@ export const Navbar = () => {
         {/* Auth Buttons */}
         <div className="flex items-center gap-2.5">
           <ThemeToggle />
-          <Link href="/login" className="max-lg:hidden">
+          {/* <Link href="/login" className="max-lg:hidden">
             <Button variant="outline">
               <span className="relative z-10">Login</span>
             </Button>
-          </Link>
-          <a
-            href="https://github.com/shadcnblocks/mainline-nextjs-template"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <Github className="size-4" />
-            <span className="sr-only">GitHub</span>
-          </a>
+          </Link> */}
 
           {/* Hamburger Menu Button (Mobile Only) */}
           <button
