@@ -1,9 +1,8 @@
-import Image from "next/image";
+
 
 import {
   ArrowRight,
   Blend,
-  ChartNoAxesColumn,
   CircleDot,
   Diamond,
 } from "lucide-react";
